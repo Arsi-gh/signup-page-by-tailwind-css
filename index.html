@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="flex">
+    <main class="login-section w-1/2 bg-slate-300 h-screen flex justify-center items-center">
+        <form class="flex flex-col  bg-slate-50 p-4  max-w-md relative rounded-t-[60px] rounded-b-xl  shadow-md" action="">
+            <span class="bg-slate-100 w-32 h-32 p-3 rounded-full absolute -top-16 left-40 shadow-md">
+                <img class="" src="./img/1463-wave.gif" alt="">
+            </span>
+            <div class="welcome-con p-2 mt-12">
+                <p class="text-center">Hi there , my name is Arsi welcome to our platform , for conituniung your journy you should register for an account by filling up the inputs blow  </p>
+            </div>
+            <div class="username-con flex flex-col gap-1 p-2 mt-4">
+                <label for="username">Choosen name to be displayed on website :</label>
+                <input class="focus:ring-2 ring-offset-2 outline-none p-1 px-2 bg-slate-200 rounded-sm" type="text" id="username">
+            </div>
+            <div class="useremail-con flex flex-col gap-1 p-2">
+                <label for="useremail">Your email address :</label>
+                <input class="focus:ring-2 ring-offset-2 outline-none p-1 px-2 bg-slate-200 rounded-sm" type="email" id="useremail">
+            </div>
+            <div class="userpass-con flex flex-col gap-1 p-2 relative">    
+                <label for="userpass">Write down your choosen password :</label>
+                <input class="focus:ring-2 ring-offset-2 outline-none p-1 px-2 bg-slate-200 rounded-sm" type="password" id="userpass">
+                <span class="absolute bottom-3 right-5 cursor-pointer">
+                    <i class="fa-sharp fa-regular fa-eye-slash"></i>
+                </span>
+            </div>
+            <p class="p-2">You can also sign up with :</p>
+            <div class="p-2 flex items-center justify-center gap-3 mb-8">
+                <span class="hover:ring-2 ring-offset-2 p-2 bg-slate-50 shadow-lg border-2 border-slate-200   w-10 h-10 rounded-sm cursor-pointer">
+                    <img class="w-full h-full" src="./img/download-removebg-preview.png" alt="">
+                </span>
+                <span class="hover:ring-2 ring-offset-2 bg-slate-50 shadow-lg border-2 border-slate-200   w-10 h-10 rounded-sm cursor-pointer">
+                    <img class="w-full h-full object-cover" src="./img/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail-removebg-preview.png" alt="">
+                </span>
+                <span class="hover:ring-2 ring-offset-2 bg-slate-50  shadow-lg border-2 border-slate-200  w-10 h-10 rounded-sm cursor-pointer">
+                    <img class="w-full h-full object-cover" src="./img/Facebook-logo-removebg-preview.png" alt="">
+                </span>
+            </div>
+            <button class="submit-form bg-blue-400 py-3 w-96 rounded-md absolute -bottom-6 left-7 text-slate-50 font-bold shadow-lg hover:ring-4 ring-blue-400 ring-offset-2">Sign In</button>
+        </form>
+    </main>
+    <section class="h-screen w-1/2 bg-slate-500 flex items-center justify-center relative">
+        <form class="flex flex-col  bg-slate-50 p-4  w-1/2 relative  rounded-md  shadow-md justify-center" action="">
+
+            <!--welcome page and sign up options -->
+            
+            <div class="sign-in-options">
+                <span class="bg-slate-100 w-32 h-32 p-3 rounded-full absolute -top-16 left-[140px] shadow-md">
+                    <img class="" src="./img/1463-wave.gif" alt="">
+                </span>
+                <div class="welcome-con p-2 mt-12">
+                    <p class="text-center text">Hi there , my name is Arsi welcome to our platform , for conituniung your journy you should register for an account by choosing your desired option </p>
+                </div>
+                <div class="flex flex-col justify-center gap-2 p-2">
+                    <button class="email-option bg-slate-300 p-2 rounded-md flex justify-between items-center px-6 hover:ring-2 ring-offset-2 ring-slate-300">
+                        Sign up with email
+                        <span class="font-bold text-xl">@</span>
+                    </button>
+                    <button class="phone-option bg-slate-300 p-2 rounded-md flex justify-between items-center px-6 hover:ring-2 ring-offset-2 ring-slate-300">
+                        Sign up with phone number
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                </div>
+                <p class="p-2 m-auto">You can also sign up with :</p>
+                <div class="p-2 flex items-center justify-center gap-3">
+                    <span class="hover:ring-2 ring-offset-2 ring-slate-300 p-2 bg-slate-50 shadow-lg border-2 border-slate-200   w-10 h-10 rounded-sm cursor-pointer">
+                        <img class="w-full h-full" src="./img/download-removebg-preview.png" alt="">
+                    </span>
+                    <span class="hover:ring-2 ring-offset-2 ring-slate-300 bg-slate-50 shadow-lg border-2 border-slate-200   w-10 h-10 rounded-sm cursor-pointer">
+                        <img class="w-full h-full object-cover" src="./img/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail-removebg-preview.png" alt="">
+                    </span>
+                    <span class="hover:ring-2 ring-offset-2 ring-slate-300 bg-slate-50  shadow-lg border-2 border-slate-200  w-10 h-10 rounded-sm cursor-pointer">
+                        <img class="w-full h-full object-cover" src="./img/Facebook-logo-removebg-preview.png" alt="">
+                    </span>
+                </div>
+            </div>
+
+            <!--end of welcome page and sign up options -->
+
+            <!-- phone sign up page part one -->
+
+            <div class="phone-sign-in-page flex flex-col gap-y-8 hidden">
+                <label for="userphone">Please enter your phone number :</label>
+                <div class="flex w-full gap-2">
+                    <select class="border-none bg-slate-200 rounded-sm focus:ring-2 p-2 ring-offset-2 outline-none" name="" id="">
+                        <option value="iran">98</option>
+                        <option value="iraq">21</option>
+                        <option value="US">38</option>
+                        <option value="UK">58</option>
+                        <option value="switzerland">69</option>
+                        <option value="turkey">85</option>
+                        <option value="canada">74</option>
+                        <option value="brazil">32</option>
+                        <option value="saudi arabia">13</option>
+                        <option value="russia">22</option>
+                        <option value="egypt">18</option>
+                        <option value="Argantina">78</option>
+                    </select>
+                    <input class="phone-number-input border-none focus:ring-2 ring-offset-2 outline-none p-2 px-2 bg-slate-200 rounded-sm w-full" type="number" min="0">
+                </div>
+                <button class="submit-phone-number bg-blue-400 py-3 w-full rounded-md mr-auto text-slate-50 font-bold shadow-lg hover:ring-4 ring-blue-400 ring-offset-2">send validation code</button>
+                <p class="main-page-btn text-blue-400 cursor-pointer hover:text-blue-600">Try another way ?</p>
+            </div>
+
+            <!--end of phone sign up page part one -->
+
+            <!-- phone sign up page part two -->
+            
+            <div class="phone-sign-in-page-two flex flex-col gap-y-8 hidden">
+                <h1>Please enter validation code:</h1>
+                <div class="flex w-full gap-2">
+                    <input type="number" class="phone-validate-code w-1/6 h-16 bg-slate-300 rounded-sm p-3 text-2xl px-4 text-center focus:ring-2 ring-offset-2 outline-none" min="1" max="9"></input>
+                    <input type="number" class="phone-validate-code w-1/6 h-16 bg-slate-300 rounded-sm p-3 text-2xl px-4 text-center focus:ring-2 ring-offset-2 outline-none" min="0" max="9"></input>
+                    <input type="number" class="phone-validate-code w-1/6 h-16 bg-slate-300 rounded-sm p-3 text-2xl px-4 text-center focus:ring-2 ring-offset-2 outline-none" min="0" max="9"></input>
+                    <input type="number" class="phone-validate-code w-1/6 h-16 bg-slate-300 rounded-sm p-3 text-2xl px-4 text-center focus:ring-2 ring-offset-2 outline-none" min="0" max="9"></input>
+                    <input type="number" class="phone-validate-code w-1/6 h-16 bg-slate-300 rounded-sm p-3 text-2xl px-4 text-center focus:ring-2 ring-offset-2 outline-none" min="0" max="9"></input>
+                    <input type="number" class="phone-validate-code w-1/6 h-16 bg-slate-300 rounded-sm p-3 text-2xl px-4 text-center focus:ring-2 ring-offset-2 outline-none" min="0" max="9"></input>
+                </div>
+                <div>
+                    <p class="main-page-btn text-blue-400 cursor-pointer hover:text-blue-600">Try another way ?</p>
+                    <p class="phone-first-page-btn text-blue-400 cursor-pointer hover:text-blue-600">Change phone number ?</p>
+                </div>
+                <button class="submit-phone-code bg-blue-400 py-3 w-full rounded-md mr-auto text-slate-50 font-bold shadow-lg hover:ring-4 ring-blue-400 ring-offset-2">check validation code</button>
+            </div>
+            
+            <!--end of phone sign up page part two -->
+            
+            <!-- email sign up page part one -->
+            
+            <div class="email-reg-page phone-sign-in flex flex-col gap-y-8 hidden">
+                <label for="userphone">Please enter your phone number :</label>
+                <div class="flex w-full gap-2 relative">
+                    <input class="email-input border-none focus:ring-2 ring-offset-2 outline-none p-2 px-2 bg-slate-200 rounded-sm w-full" type="text" min="0">
+                    <span class="absolute top-2 right-2">@</span>
+                </div>
+                <button class="email-submit-btn bg-blue-400 py-3 w-full rounded-md mr-auto text-slate-50 font-bold shadow-lg hover:ring-4 ring-blue-400 ring-offset-2">send validation code</button>
+                <p class="main-page-btn text-blue-400 cursor-pointer hover:text-blue-600">Try another way ?</p>
+            </div>
+            
+            <!--end of email sign up page part one -->
+            
+            <!-- email sign up page part two -->
+
+            <div class="email-reg-page-two phone-sign-in flex flex-col gap-y-8 hidden">
+                <h1>Please enter validation code:</h1>
+                <div class="flex w-full gap-2">
+                    <input type="number" class="valide-email-code-input w-1/6 h-16 bg-slate-300 rounded-sm p-3 text-2xl px-4 text-center focus:ring-2 ring-offset-2 outline-none" min="1" max="9"></input>
+                    <input type="number" class="valide-email-code-input w-1/6 h-16 bg-slate-300 rounded-sm p-3 text-2xl px-4 text-center focus:ring-2 ring-offset-2 outline-none" min="0" max="9"></input>
+                    <input type="number" class="valide-email-code-input w-1/6 h-16 bg-slate-300 rounded-sm p-3 text-2xl px-4 text-center focus:ring-2 ring-offset-2 outline-none" min="0" max="9"></input>
+                    <input type="number" class="valide-email-code-input w-1/6 h-16 bg-slate-300 rounded-sm p-3 text-2xl px-4 text-center focus:ring-2 ring-offset-2 outline-none" min="0" max="9"></input>
+                    <input type="number" class="valide-email-code-input w-1/6 h-16 bg-slate-300 rounded-sm p-3 text-2xl px-4 text-center focus:ring-2 ring-offset-2 outline-none" min="0" max="9"></input>
+                    <input type="number" class="valide-email-code-input w-1/6 h-16 bg-slate-300 rounded-sm p-3 text-2xl px-4 text-center focus:ring-2 ring-offset-2 outline-none" min="0" max="9"></input>
+                </div>
+                <div>
+                    <p class="main-page-btn text-blue-400 cursor-pointer hover:text-blue-600">Try another way ?</p>
+                    <p class="email-first-page-btn text-blue-400 cursor-pointer hover:text-blue-600">Change email address ?</p>
+                </div>
+                <button class="submit-emaile-code bg-blue-400 py-3 w-full rounded-md mr-auto text-slate-50 font-bold shadow-lg hover:ring-4 ring-blue-400 ring-offset-2">check validation code</button>
+            </div>
+
+            <!-- email sign up page part two -->
+
+            <!-- last sign in page -->
+            
+            <div class="last-page flex flex-col gap-3 hidden">
+                <p>Please fill up below inputs to finish your registeration : </p>
+                <label for="username">type your username</label>
+                <input id="username" class="username-input focus:ring-2 ring-offset-2 outline-none p-1 px-2 bg-slate-200 rounded-sm" type="text">
+                <div class="w-full flex flex-col gap-2 relative">
+                    <label for="password-two" for="password-two">enter your desired passwrod</label>
+                    <input id="password-two" class="focus:ring-2 ring-offset-2 outline-none p-1 px-2 bg-slate-200 rounded-sm" type="password">
+                    <span class="eye-btn">
+                        <i class="fa-sharp fa-regular fa-eye-slash absolute top-10 right-4 cursor-pointer"></i>
+                    </span>
+                </div>
+                <div class="w-full flex flex-col gap-2 relative">
+                    <label for="password-three" for="password-three">please rewrite your password</label>
+                    <input id="password-three" class="focus:ring-2 ring-offset-2 outline-none p-1 px-2 bg-slate-200 rounded-sm" type="password">
+                    <span class="eye-btn-two">
+                        <i class="fa-sharp fa-regular fa-eye-slash absolute top-10 right-4 cursor-pointer"></i>
+                    </span>
+                </div>
+                <button class="finish-registeration bg-blue-400 py-3 w-full rounded-md mr-auto text-slate-50 font-bold shadow-lg hover:ring-4 ring-blue-400 ring-offset-2">finish registeration</button>
+            </div>
+
+            <!-- last sign in page -->
+
+        </form>
+        <div class="pagintation absolute flex flex-col top-72 right-20 gap-4 hidden">
+            <button class="pagintation-btn bg-slate-50 border-slate-800 w-14 h-14 rounded-full text-xl  ring-offset-[3px] ring-offset-slate-500 ring-slate-50 z-20 font-bold cursor-auto">1</button>
+            <button class="pagintation-btn bg-slate-50 border-slate-800 w-14 h-14 rounded-full text-xl  ring-offset-[3px] ring-offset-slate-500 ring-slate-50 z-50 font-bold cursor-auto">2</button>
+            <button class="pagintation-btn bg-slate-50 border-slate-800 w-14 h-14 rounded-full text-xl  ring-offset-[3px] ring-offset-slate-500 ring-slate-50 z-20 font-bold cursor-auto">3</button>
+        </div>
+        <div class="pagintation h-28 w-[6px] bg-slate-100 absolute right-[105px] z-10 hidden"></div>
+    </section>
+    <script src="/app.js"></script>
+</body>
+</html>
